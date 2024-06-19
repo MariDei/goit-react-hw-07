@@ -1,0 +1,10 @@
+.wrapper {
+  background-position: inherit;
+}
+
+.list {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}

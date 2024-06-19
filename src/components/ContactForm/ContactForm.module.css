@@ -1,0 +1,53 @@
+.wrapper {
+  width: 390px;
+  margin: 0 4px 0 0;
+  padding: 4px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  font-size: 18px;
+  border: 2px solid azure;
+  border-radius: 6px;
+}
+
+.name,
+.number {
+  margin: 4px;
+}
+
+.input {
+  width: 375px;
+  height: 20px;
+  margin: 0 auto;
+  padding: 5px;
+  font-size: 16px;
+  border-radius: 6px;
+  border: 2px solid azure;
+}
+
+span {
+  font-size: 14px;
+  font-size: 400;
+  color: red;
+}
+
+.btn {
+  margin: 10px auto;
+  padding: 10px;
+  font-size: 22px;
+  font-weight: 700;
+  background-color: gold;
+  color: rgb(74, 72, 72);
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.btn:focus,
+.btn:hover {
+  color: green;
+  background-color: inherit;
+  border: 1px solid azure;
+  box-shadow: 2px 2px 2px gray;
+}

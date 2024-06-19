@@ -1,0 +1,60 @@
+.item {
+  position: relative;
+  width: 385px;
+  padding: 6px;
+  display: flex;
+  align-content: start;
+  flex-direction: column;
+  gap: 6px;
+  font-size: 18px;
+  color: azure;
+  background-color: linear-gradient(to right, #868f96 0%, #596164 100%);
+  border-radius: 6px;
+  border: 2px solid azure;
+}
+
+.wrapper {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: start;
+}
+
+.title {
+  flex-grow: 1;
+  margin: 5px 0;
+  display: flex;
+  align-items: center;
+}
+
+.icon {
+  margin-right: 10px;
+  fill: gold;
+}
+
+.number {
+  font-size: 20px;
+}
+
+.btn {
+  position: absolute;
+  margin: 15px 290px 15px;
+  padding: 10px;
+  font-size: 20px;
+  font-weight: 700;
+  background-color: gold;
+  color: rgb(74, 72, 72);
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.btn:hover,
+.btn:focus {
+  color: red;
+  background-color: inherit;
+  border: 1px solid azure;
+  box-shadow: 2px 2px 2px gray;
+}
