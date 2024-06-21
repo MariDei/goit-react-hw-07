@@ -3,10 +3,6 @@
   line-height: 1.5;
   font-weight: 500;
 
-  color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
-
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
@@ -15,8 +11,9 @@
 
 body {
   color: azure;
-  background: url() center / cover no-repeat;
-  min-height: 135vh;
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url(./image/phonebook.jpg) center / cover no-repeat;
+  min-height: 25vh;
 }
 
 h1,

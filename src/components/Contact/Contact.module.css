@@ -30,7 +30,7 @@
 
 .icon {
   margin-right: 10px;
-  fill: gold;
+  fill: green;
 }
 
 .number {
@@ -42,9 +42,9 @@
   margin: 15px 290px 15px;
   padding: 10px;
   font-size: 20px;
-  font-weight: 700;
-  background-color: gold;
-  color: rgb(74, 72, 72);
+  font-weight: 900;
+  background-color: green;
+  color: rgb(17, 16, 16);
   border: none;
   border-radius: 5px;
   cursor: pointer;
@@ -55,6 +55,6 @@
 .btn:focus {
   color: red;
   background-color: inherit;
-  border: 1px solid azure;
+  border: 2px solid green;
   box-shadow: 2px 2px 2px gray;
 }
