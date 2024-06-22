@@ -36,7 +36,7 @@ span {
   padding: 10px;
   font-size: 22px;
   font-weight: 700;
-  background-color: green;
+  background-color: rgb(57, 167, 235);
   color: rgb(17, 16, 16);
   border: none;
   border-radius: 5px;
@@ -46,7 +46,7 @@ span {
 
 .btn:focus,
 .btn:hover {
-  color: green;
+  color: rgb(57, 167, 235);
   background-color: azure;
   box-shadow: 2px 2px 2px gray;
 }

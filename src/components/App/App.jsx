@@ -22,7 +22,9 @@ function App() {
         <h1 className={css.title}>Phonebook</h1>
         <ContactForm />
         <SearchBox />
-        {isLoading && !error && <b>Request in progress...</b>}
+        {isLoading && !error && (
+          <p className={css.loading}>Request in progress...</p>
+        )}
         <ContactList />
       </div>
     </>

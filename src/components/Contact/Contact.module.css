@@ -30,7 +30,7 @@
 
 .icon {
   margin-right: 10px;
-  fill: green;
+  fill: rgb(57, 167, 235);
 }
 
 .number {
@@ -43,7 +43,7 @@
   padding: 10px;
   font-size: 20px;
   font-weight: 900;
-  background-color: green;
+  background-color: rgb(57, 167, 235);
   color: rgb(17, 16, 16);
   border: none;
   border-radius: 5px;
@@ -55,6 +55,6 @@
 .btn:focus {
   color: red;
   background-color: inherit;
-  border: 2px solid green;
+  border: 2px solid rgb(57, 167, 235);
   box-shadow: 2px 2px 2px gray;
 }

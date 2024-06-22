@@ -11,9 +11,9 @@
 
 body {
   color: azure;
-  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
-    url(./image/phonebook.jpg) center / cover no-repeat;
-  min-height: 25vh;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(./image/phone.png) center / cover no-repeat;
+  min-height: 75vh;
 }
 
 h1,
